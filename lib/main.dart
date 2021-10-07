@@ -1,0 +1,15 @@
+import 'package:base_response/ricky_morties/model/ricky_morties_view.dart';
+import 'package:base_response/ricky_morties/ricky_morties.dart';
+import 'package:flutter/material.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Material App',
+      home: RickyMorties(),
+    );
+  }
+}
